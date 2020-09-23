@@ -13,3 +13,5 @@ git remote add origin https://github.com/wsypower/w-note.git
 git push -f origin master
 
 cd -
+
+open https://wsypower.github.io/w-note/
