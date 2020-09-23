@@ -1,5 +1,5 @@
 module.exports = {
-  base: "/",
+  base: "/w-note/",
   title: "个人文档笔记",
   description: "Just playing around",
   themeConfig: {
