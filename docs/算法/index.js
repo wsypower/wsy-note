@@ -1,7 +1,7 @@
 module.exports = {
   nav: [
     {
-      text: "算法",
+      text: "数据类型看算法",
       link: "/算法/",
     },
   ],

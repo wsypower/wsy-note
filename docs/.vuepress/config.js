@@ -1,5 +1,6 @@
 const JavaScript = require("../javascript/index.js");
 const leetCode = require("../算法/index.js");
+const arithmetic = require("../leetcode/index.js");
 module.exports = {
   base: "/w-note/",
   title: "文档笔记",
@@ -9,6 +10,7 @@ module.exports = {
     nav: [
       ...JavaScript.nav,
       ...leetCode.nav,
+      ...arithmetic.nav,
       {
         text: "Vue",
         items: [
@@ -23,6 +25,7 @@ module.exports = {
     sidebar: {
       ...JavaScript.sidebar,
       ...leetCode.sidebar,
+      ...arithmetic.sidebar,
       "/vue-zoology/vue/": [
         {
           title: "vue", // 必要的
