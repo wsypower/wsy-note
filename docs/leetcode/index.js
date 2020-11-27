@@ -12,7 +12,7 @@ module.exports = {
         path: "/leetcode",
         collapsable: false,
         sidebarDepth: 2,
-        children: ["/leetcode/二分搜索/二分"],
+        children: ["/leetcode/二分搜索/二分", "/leetcode/双指针/双指针"],
       },
     ],
   },
